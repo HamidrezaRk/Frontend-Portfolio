@@ -1,75 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Personal Portfolio Website Design | Codehal</title>
 
-    <!-- box icons -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Personal Portfolio Website Design | Codehal</title>
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-  <body>
-    <!--  Start header design -->
-    <header class="header">
-      <a href="#" class="logo">Portfolio</a>
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-      <i class='bx bx-menu' id="menu-icon"></i>
+<body>
+  <!--  Start header design -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
 
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">about</a>
-        <a href="#services">services</a>
-        <a href="#Portfolio">Portfolio</a>
-        <a href="#contect">contect</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
 
-      </nav>
-    </header>
-    <!--  End header design -->
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">about</a>
+      <a href="#services">services</a>
+      <a href="#Portfolio">Portfolio</a>
+      <a href="#contect">contect</a>
 
-    <!--  Start home section design -->
-      <section class="home" id="home">
-          <div class="home-content">
-            <h3>Hello, Its Me</h3>
-            <h1>Hamidreza Ramezani</h1>
-            <h3>And I'm a<span>Web Developer</span></h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Est maiores in earum laboriosam quod illum iusto repellendus.</p>
-              <div class="social-media">
-                <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
-                <a href="#"><i class='bx bxl-telegram' ></i></a>
-                <a href="#"><i class='bx bxl-github' ></i></a>
+    </nav>
+  </header>
+  <!--  End header design -->
+
+  <!--  Start home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, Its Me</h3>
+      <h1>Hamidreza Ramezani</h1>
+      <h3>And I'm a<span> Web Developer</span></h3>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Est maiores in earum laboriosam quod illum iusto repellendus.</p>
+      <div class="social-media">
+        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="#"><i class='bx bxl-telegram'></i></a>
+        <a href="#"><i class='bx bxl-github'></i></a>
+      </div>
+      <a href="#" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="images/home.png" alt="me" />
+    </div>
+  </section>
+  <!-- End home section design -->
+
+  <!-- Start about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/about.png" alt="about">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About<span>Me</span></h2>
+      <h3>Web Developer</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aliquam velit amet dolor rerum temporibus.
+      </p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+  <!-- End about section design -->
+  <!-- Start services section design -->
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+     
+    <div class="services-container">
+      <!-- -1- -->
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aliquam velit amet dolor rerum temporibus.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <!-- -2- -->
+      <div class="services-box">
+        <i class='bx bx-paint'></i>
+        <h3>Graghic Desgin</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aliquam velit amet dolor rerum temporibus.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <!-- -3- -->
+
+      <div class="services-box">
+        <i class='bx bxs-bar-chart-square'></i>
+        <h3>Seo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aliquam velit amet dolor rerum temporibus.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+    </div>
+
+
+
+  </section>
+  <!-- End services section design -->
+
+  <!--Start portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Lasted<span>Project</span></h2>
+      
+    <div class="portfolio-container">
+            <div class="portfolio-dox">
+              <!-- -1- -->
+              <img src="images/portfolio1.jpg" alt="Project">
+              <div class="portfolio-layer">
+                <h4>Web Desgin</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi veritatis ipsa?</p>
+                <a href="#"><i class='bx bx-link'></i></a>
               </div>
-              <a href="#" class="btn">Download CV</a>
-          </div>
-          <div class="home-img">
-            <img src="images/home.png" alt="me"/>
-          </div>
-      </section>
-    <!-- End home section design -->
+          </div>    
+          <div class="portfolio-dox">
+              <!-- -2- -->
+              <img src="images/portfolio2.jpg" alt="Project">
+              <div class="portfolio-layer">
+                <h4>Web Desgin</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi veritatis ipsa?</p>
+                <a href="#"><i class='bx bx-link'></i></a>
+              </div>
+          </div>  
+          <div class="portfolio-dox">
+            <!-- -3- -->
+            <img src="images/portfolio2.jpg" alt="Project">
+            <div class="portfolio-layer">
+              <h4>Web Desgin</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi veritatis ipsa?</p>
+              <a href="#"><i class='bx bx-link'></i></a>
+            </div>
+        </div>
+        
+      </div>
+    </section>
+  <!--End portfolio section design -->
 
-    <!-- about section design -->
+  <!-- contact section design -->
 
-    <!-- services section design -->
-
-    <!-- portfolio section design -->
-
-    <!-- contact section design -->
-
-    <!-- footer design -->
+  <!-- footer design -->
 
 
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- typed js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    <!-- custom js -->
-    <script src="js/script.js"></script>
-  </body>
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
